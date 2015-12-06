@@ -30,14 +30,14 @@
     [usernameFeild setPlaceholder:@"用户名"];
     usernameFeild.borderStyle = UITextBorderStyleRoundedRect;
     usernameFeild.delegate = self;
-    usernameFeild.text = @"lesly";
+//    usernameFeild.text = @"lesly";
     
     passwordField = [[UITextField alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(usernameFeild.frame) + 10, CGRectGetWidth(self.view.frame) - 20, 44)];
     passwordField.placeholder = @"密码";
     passwordField.secureTextEntry = YES;
     passwordField.borderStyle = UITextBorderStyleRoundedRect;
     passwordField.delegate = self;
-    passwordField.text = @"8forxiao";
+//    passwordField.text = @"8forxiao";
     
     loginButton = [[UIButton alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(passwordField.frame) + 20, CGRectGetWidth(self.view.frame) - 20, 44)];
     loginButton.backgroundColor = Hex2UIColor(0x2987EA);
